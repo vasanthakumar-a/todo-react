@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: linear-gradient(120deg, #f4c4f3 0%, #fc67fa 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -35,6 +35,10 @@ form button {
 form button:hover {
   background: #ff6f47;
   color: white;
+}
+
+.form-error {
+  border: 2px solid red;
 }
 
 form .edit-btn {
