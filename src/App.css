@@ -15,7 +15,6 @@ header {
 
 header,
 form {
-  min-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +36,12 @@ form button:hover {
   background: #ff6f47;
   color: white;
 }
+
+form .edit-btn {
+  margin-right: 10px;
+  background-color: #51a9f6;
+}
+
 .todo-container {
   display: flex;
   justify-content: center;
@@ -66,6 +71,7 @@ form button:hover {
 }
 
 .trash-btn,
+.edit-btn,
 .complete-btn {
   background: #ff6f47;
   color: white;
@@ -79,6 +85,13 @@ form button:hover {
 }
 .todo-item {
   padding: 0rem 0.5rem;
+}
+.todo input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 15px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
 }
 
 .fa-trash,
