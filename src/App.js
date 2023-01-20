@@ -63,7 +63,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Vasi's Todo List</h1>
+        <h1>India's Best Todo App</h1>
       </header>
       <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} setStatus={setStatus} setAPIData={setAPIData} />
       <TodoList filteredTodos={filteredTodos} todos={todos} setTodos={setTodos} deleteTodo={deleteTodo} completeTodo={completeTodo} setAPIData={setAPIData} updateAPIData={updateAPIData} />
